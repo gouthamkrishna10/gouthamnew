@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #m1{
+        background-color: black;
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+       
+        
+        }
+       #d1{
+        height: 600px;
+        width: 480px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+       }
+       #d2{
+        height: 570px;
+        width: 410px;
+        background-color: orange;
+        /* padding: 40px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        
+       
+        
+
+
+       }
+       #d3{
+        
+        width: 408px;
+        background-color: rgb(8, 8, 57);
+        position: absolute;
+        top: 120px;
+        left: 560px;
+        right: 0;
+        height: 440px;
+        
+        
+        
+       }
+       form{
+        font-size: large;
+        padding: 10px;
+       }
+       
+        #d4{
+            color: yellow;
+            text-align: end;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            right: 250px;
+           
+        }
+        #d5{
+            /* background-color: aqua; */
+            position: absolute;
+            top: 16px;
+            left: 220;
+            right: 0px;
+            height: 410px;
+            width: 236px;
+           
+        }
+        #v1{
+            text-align: start;
+            color: white;
+            position: absolute;
+            top: 70px;
+            left: 574px;
+
+        }
+        #s1{
+            background-color: green;
+            width: 90px;
+            height: 45px;
+            color: white;
+            font-size: medium;
+            position: absolute;
+            top: 460px;
+            right: 110px;
+            
+        }
+        #s2{
+            background-color:red;
+            width: 90px;
+            height: 45px;
+            color: white;
+            font-size: medium;
+            position: absolute;
+            top: 460px;
+            right: 10px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="m1">
+    <div id="d1">
+        <div id="d2">
+            <h3 id="v1">Sign Up</h3>
+            <div id="d3">
+                    <form action="">
+                        <div id="d4">
+                            <label for="fname">First Name</label><br><br>
+                            <label for="lname">Last Name</label><br><br>
+                            <label for="dob">Date of Birth</label><br><br>
+                            <label for="gender">Gender</label><br><br>
+                            <label for="country">Country</label><br><br>
+                            <label for="mail">E-mail</label><br><br>
+                            <label for="phone">Phone</label><br><br>
+                            <label for="pass">Password</label><br><br>
+                            <label for="cpass">Confirm Password</label><br><br>
+                        </div>
+                        <div id="d5">
+                             <input type="text" id="fname" required placeholder="Enter First Name"><br><br>
+                <input type="text" id="lname" required placeholder="Enter Last Name"><br><br>
+                    <select id="day" name="day">
+                    <option value="">Date</option>
+                    
+                    </select>
+
+                    <select id="month" name="month">
+                        <option value="month">Month</option>
+                    
+                    </select>
+
+                    <select id="year" name="year">
+                    <option value="">Year</option>
+                    </select><br><br>
+                    <input type="radio" id="gender1" name="r1">
+                    <label for="gender1" style="color: yellow;">Male</label>
+                    <input type="radio" id="gender2" name="r1">
+                    <label for="gender2" style="color: yellow;">Female</label><br><br>
+                    <select name="Country" id="Country">
+                        <option value="text">Country</option>
+                    </select><br><br>
+                    <input type="email" id="mail" required placeholder="Enter E-mail" ><br><br>
+                    <input type="text" id="phone" required placeholder="Enter Phone"><br><br>
+                    <input type="text" id="pass"><br><br>
+                    <input type="text" id="cpass"><br><br>
+                    <input type="checkbox" id="chec1">
+                    <label for="chec1" style="color: yellow;">I Agree to the Terms of Use</label>
+
+                        </div>
+                        <input type="button" value="Submit" id="s1">
+                         <input type="button" value="Cancel" id="s2">
+                    </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>

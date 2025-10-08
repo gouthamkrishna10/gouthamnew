@@ -1,0 +1,31 @@
+#bg{
+    background-color: rgb(0, 128, 255);
+    height: 320px;
+    width: 750px;
+   
+}
+#h1{
+
+    text-align: center;
+    margin-right: 200px;
+    padding-top: 20px;
+    
+}
+#p1{
+
+    text-align: center;
+    margin-right: 240px;
+    
+    
+}
+#ol{
+    margin-left: 140px;
+}
+#p2{
+    text-align: center;
+    margin-right: 240px;
+}
+#cdot{
+    list-style-type: circle;
+    margin-left: 40px;
+}

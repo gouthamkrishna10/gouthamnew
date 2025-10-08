@@ -1,0 +1,12 @@
+#bg{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+
+}
+#head{
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 20px;
+}
